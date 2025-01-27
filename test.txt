@@ -4,4 +4,7 @@ read num1
 echo "Enter 2nd number"
 read num2
 result=$((num1+num2))
-echo "Result is : $result"
+echo "Addition is : $result"
+
+multiresult=$((num1*num2))
+echo "Multiplication is : $multiresult"
